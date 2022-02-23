@@ -1,0 +1,7 @@
+# Tasks that will be installed as ClusterTask
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- git-cli/0.3/git-cli.yaml
+
